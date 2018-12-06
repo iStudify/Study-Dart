@@ -20,3 +20,8 @@ class Square implements Shape {
   Square(this.side);
   num get area => pow(side, 2);
 }
+
+class CircleMock implements Circle {
+  num area;
+  num radius;
+}
